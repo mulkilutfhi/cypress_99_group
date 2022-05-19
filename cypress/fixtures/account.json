@@ -1,0 +1,20 @@
+{
+	"rumah123":{
+
+		"Username" : "123.superqa@gmail.com",
+		"Password" : "rumahnya123",
+
+    "buyerUsername":"indricaca@yopmail.com",
+    "buyerPassword":"99indri123",
+
+		"InvalidUsername": "123.super@gmail.com",
+		"InvalidPassword": "rumahnya12"
+	},
+	"ninetynine":{
+		"Username" : "istiq",
+		"Password" : "qwerty",
+
+		"InvalidUsername" : "istiq",
+		"InvalidPassword" : "qwert"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://admin.feature.ninetynine.id/",
+    "integrationFolder": "cypress/integration/erp/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "erp",
+        "ENV": "dev"
+    }
+}

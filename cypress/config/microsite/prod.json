@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://dev.microsites.99iddev.net/wp/wp-admin/post.php?post=2044&action=edit",
+  "integrationFolder": "cypress/integration/microsite",
+  "chromeWebSecurity": false,
+  "env":{
+    "MARKET": "microsite",
+    "ENV": "prod"
+  }
+}

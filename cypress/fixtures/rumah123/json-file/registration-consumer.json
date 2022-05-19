@@ -1,0 +1,16 @@
+{
+	"validData":
+	{
+		"namaDepan" : "Testing",
+		"namaBelakang" : "User",
+		"emailConsumer" : "testing.user07@yopmail.com",
+		"passwordConsumer" : "rumahnya123"
+	},
+	"invalidData":
+	{
+		"namaDepan" : "!*#$!^^)))",
+		"namaBelakang" : "User",
+		"emailConsumer" : "invalidmail.com",
+		"passwordConsumer" : "rumah321"
+	}
+}

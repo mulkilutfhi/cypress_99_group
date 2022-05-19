@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://develop.crm.rumah123.com/",
+    "integrationFolder": "cypress/integration/crm/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "crm",
+        "ENV": "dev"
+    }
+}

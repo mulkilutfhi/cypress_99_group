@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://rumah123portal.develop.99iddev.net/",
+    "integrationFolder": "cypress/integration/rumah123/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "rumah123",
+        "ENV": "dev"
+    }
+}

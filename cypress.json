@@ -1,0 +1,18 @@
+{
+  "video": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 90000,
+  "requestTimeout": 15000,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  }
+}

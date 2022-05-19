@@ -1,0 +1,10 @@
+{
+	"firstname":"register",
+	"lastname":"testing",
+
+	"validemail":"mulki@99.co",
+	"invalidemail":"mul99.co",
+
+	"validpassword":"Rumahnya123",
+	"waekpass":"12345"
+}

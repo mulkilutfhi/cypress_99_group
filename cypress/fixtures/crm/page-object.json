@@ -1,0 +1,88 @@
+{
+  "login-logo": "[alt='logo-login']",
+  "login-form": ".signin-container-form",
+
+  "sales-area-dropdown": "[data-cy='sales_area']",
+  "sales-area-dropdown-menu-1": "[title='Mampang Prapatan']",
+  "sales-area-dropdown-menu-2": "[title='Tebet']",
+  "sales-area-dropdown-no-result": "[title='Pasar Minggu']",
+
+  "property-name-dropdown": "[data-cy='package_name']",
+  "property-name-dropdown-1": ".rc-virtual-list-holder-inner > div[title='Premium Listing 21-50']",
+  "property-name-dropdown-2": ".rc-virtual-list-holder-inner > div[title='MRB 001, MRB 002']",
+  "property-name-dropdown-3": ".rc-virtual-list-holder-inner > div[title='Gold Merdeka']",
+  "property-name-dropdown-4": ".rc-virtual-list-holder-inner > div[title='Silver+ Discovery']",
+  "property-name-dropdown-5": ".rc-virtual-list-holder-inner > div[title='Silver+ Galaxy']",
+  "property-name-dropdown-6": ".rc-virtual-list-holder-inner > div[title='platinum Add-On']",
+  "property-name-dropdown-7": ".rc-virtual-list-holder-inner > div[title='platinum']",
+  "property-name-dropdown-8": ".rc-virtual-list-holder-inner > div[title='diamond']",
+  "property-name-dropdown-9": ".rc-virtual-list-holder-inner > div[title='gold']",
+
+  "property-type-dropdown": "[data-cy='package_type']",
+  "property-type-dropdown-bundle": "[title='Bundle']",
+  "property-type-dropdown-platinum": "[title='Platinum Add ons']",
+  "property-type-dropdown-alacarte": "[title='Ala Carte']",
+  "property-type-dropdown-upgrade": "[title='Upgrade']",
+
+  "agency-dropdown": ".ant-select-selection-overflow:eq(0)",
+  "agency-dropdown-menu-1": "[title='Alfamega Property']",
+  "agency-dropdown-menu-2": "[title='793429 - Independent Property Agent']",
+  "agency-dropdown-menu-3": "[title='Gading Pro']",
+  "agency-selected": ".ant-select-selection-item-content",
+
+  "latest-stage-dropdown": "[data-cy='latest_stage']",
+  "latest-stage-dropdown-menu-1": "[title='Payment']",
+  "latest-stage-dropdown-menu-2": "[title='Follow Up']",
+  "latest-stage-dropdown-menu-3": "[title='Invoicing']",
+
+  "leads-owner-dropdown": "[data-cy='leads_owner']",
+  "leads-owner-dropdown-menu-1": "[title='BDE M 6']",
+  "leads-owner-dropdown-menu-2": "[title='BDE M 5']",
+  "leads-owner-dropdown-menu-3": "[title='BDE M 10']",
+
+  "leads-source-dropdown": "[data-cy='leads_source']",
+  "leads-source-dropdown-menu-1": "[title='Rumah 123']",
+  "leads-source-dropdown-menu-2": "[title='OLX']",
+  "leads-source-dropdown-menu-3": "[title='Lamudi']",
+
+  "leads-status-dropdown": ".ant-form-item-control-input-content:eq(4)",
+  "leads-status-cold": "[role='list'] [type='checkbox']:eq(1)",
+  "leads-status-warm": "[role='list'] [type='checkbox']:eq(2)",
+  "leads-status-won": "[role='list'] [type='checkbox']:eq(3)",
+  "leads-status-selected": "[role='listitem']",
+
+  "membership-dropdown": "[data-cy='membership_status']",
+  "membership-dropdown-menu-0": "[title='New']",
+  "membership-dropdown-menu-1": "[title='Suspended']",
+  "membership-dropdown-menu-2": "[title='Verified']",
+  "membership-dropdown-menu-3": "[title='Rejected']",
+  "membership-badge-suspended": ".badge-suspended",
+  "membership-badge-verified": ".badge-verified",
+  "membership-badge-rejected": ".badge-rejected",
+
+  "expiry-dropdown": "#expiry_date",
+
+  "start-date": "[title='2021-12-09']",
+  "end-date": "[title='2021-12-16']",
+
+  "filter-button": ".ant-badge:eq(1)",
+  "filter-save": "[data-cy='save']",
+  "filter-reset": "[data-cy='reset']",
+
+  "leads-row": ".ant-table-row",
+  "leads-empty-1-check": ".ant-empty",
+  "leads-empty-2-check": ".ant-empty-normal",
+
+  "new-leads-number": ".mini-dashboard-card > .ant-card-body",
+
+  "dropdown-select": ".ant-select-selection-item",
+
+  "tr": "tr",
+
+  "error-message": ".ant-notification-notice",
+  "success-message": ".ant-notification-notice-closable",
+  "form-add-lead": ".ant-modal-content",
+  "select-item-option": ".ant-select-item-option-content",
+
+  "no-data-lead": ".ant-empty-description"
+}

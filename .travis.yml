@@ -1,0 +1,36 @@
+os: linux
+dist: focal
+language: node_js
+node_js:
+- 15
+branches:
+  only:
+  - "/^runtest-.*$/"
+  - master
+addons:
+  apt:
+    packages:
+    - jq
+cache:
+   directories:
+     - ~/.npm
+     - ~/.cache
+     - '$HOME/google-cloud-sdk'
+   override:
+     - npm ci
+     - npm run cy:verify
+install:
+  # cypress install is needed since it did not work after adding the google sdk
+  - npm install cypress -D
+  - if [ ! -d "$HOME/google-cloud-sdk/bin" ]; then rm -rf $HOME/google-cloud-sdk; export
+    CLOUDSDK_CORE_DISABLE_PROMPTS=1; curl https://sdk.cloud.google.com | bash; fi
+  - source /home/travis/google-cloud-sdk/path.bash.inc
+  - gcloud version
+script:
+  # This is going to get overwritten if the API call from remote repo has 'config: script {}' section
+  # in the json body. If you want to add something else here, add in deploy/trigger-cypress-travis.sh
+  # of the remote repo as well
+  - bash cicd/travis-script.sh
+env:
+  - TESTFOLDER="cypress/integration/job1"
+  - TESTFOLDER="cypress/integration/job2"

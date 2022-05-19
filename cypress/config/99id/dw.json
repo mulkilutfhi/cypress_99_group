@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://dw.99.co/id",
+    "integrationFolder": "cypress/integration/99id",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "99id",
+        "ENV": "dw"
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"validData":
+	{
+		"CompanyName" : "Atlas",
+		"PackageType" : "Silver Rp  898,888",
+		"FullNameAgent" : "Test User Company",
+		"WhatsappNumberAgent" : "0880000111",
+		"EmailAgent" : "test+2@mail.com",
+		"PasswordAgent" : "katasandi23"
+	},
+	"invalidData":
+	{
+		"CompanyName" : "Atlas",
+		"PackageType" : "Silver Rp  898,888",
+		"FullNameAgent" : "Test User Company",
+		"WhatsappNumberAgent" : "0880000111",
+		"EmailAgent" : "test+1@mail.com",
+		"PasswordAgent" : "katasandi234"
+	}
+}

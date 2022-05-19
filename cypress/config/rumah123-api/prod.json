@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://new-api.rumah123.com",
+    "integrationFolder": "cypress/integration/rumah123-api/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "rumah123",
+        "ENV": "prod",
+        "xClientType": "hpLq3mHjnx2QgaTOahAGwV6m8MGPNm2VLwZuNR9hvvNuZssCXjsbnARTGqGGn4Ni+eM5N/5vdHrdkFsQoexd/NR3NruzK/06ZYD90FKsh/yBYECj+vxRdjHB6qzYoihi8Vei8HTxLGOATW6gy9Pu7lJHHmH2AvEFWq28AQSw79Mgnkyi9RbKbJEjqT7N68Yyo8+1Py9p4jPLtYVVpBOR4w==|f/2sUlE5pfwgr1Pob6NKkYG1Q8qviuYpAWK1E3M7N4k=",
+        "authorization": "Basic cmVnLXdlYjpyZWctd2ViLTEyMw==",
+        "contentType": "application/json"
+    }
+}

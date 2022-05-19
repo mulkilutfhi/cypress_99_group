@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  automation:
+    image: cypress/included:6.4.0
+    ipc: host
+    working_dir: /e2e
+    volumes:
+    - .:/e2e

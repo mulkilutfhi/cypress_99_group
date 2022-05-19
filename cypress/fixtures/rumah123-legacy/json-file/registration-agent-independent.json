@@ -1,0 +1,29 @@
+{
+    "validData":
+    {
+			"CompanyName" : "Other",
+			"Province" : "Jawa Barat",
+			"City" : "Bandung",
+			"Area" : "Antapani",
+			"Address" : "Alamat lengkap testing independent",
+			"PackageType" : "Silver Rp  898,888",
+			"FullNameAgent" : "Test User Company",
+      "WANumberAgent" : "08776000111",
+			"PhoneNumberAgent" : "0880000111",
+			"EmailAgent" : "test+2@mail.com",
+			"PasswordAgent" : "katasandi23"
+    },
+    "invalidData":
+    {
+			"CompanyName" : "Other",
+			"Province" : "Jawa Barat",
+			"City" : "Bandung",
+			"Area" : "Antapani",
+			"Address" : "Alamat lengkap testing independent",
+			"PackageType" : "Silver Rp  898,888",
+			"FullNameAgent" : "Test User Company",
+			"PhoneNumberAgent" : "0880000111",
+			"EmailAgent" : "testmail.com",
+			"PasswordAgent" : "katasandi234"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://www.rumah123.com",
+    "integrationFolder": "cypress/integration/Rumah123Legacy",
+    "chromeWebSecurity": false,
+    "pageLoadTimeout" : 200000,
+    "env": {
+        "MARKET": "rumah123Legacy",
+        "ENV": "prod"
+    }
+}

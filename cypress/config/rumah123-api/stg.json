@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://stg.new-api.rumah123.com",
+    "integrationFolder": "cypress/integration/rumah123-api/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "rumah123",
+        "ENV": "stg",
+        "xClientType": "jgUhR2MKeu9/ybViMQbYXTfOayzE0CsYYCSvNLHZjTkWfknMMzExcoqLP1G59zgmDhBK0rw3+hpG4ezBs9Cmwyz671eiKKqIFMP/GYFsx8uowAhIX1WxjfCQ0hvKqsP/knvdEXcx60p2wkyvXI9XreLXOW8guKMBcRbX9/XxCIlY/p1X9hsiBN/6lr5gjnNNVoJOaCPL8k9K23WdzKQxjw==|z04Sq6vw0Q5VpSeMx+aM2greF85kcMN+RTMmRATRsT4=",
+        "authorization": "Basic cmVnLXdlYjpyZWctd2ViLXIxMjM=",
+        "contentType": "application/json"
+    }
+}

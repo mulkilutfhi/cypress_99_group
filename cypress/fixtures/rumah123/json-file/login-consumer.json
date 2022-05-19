@@ -1,0 +1,12 @@
+{
+	"validData":
+	{
+		"emailConsumer" : "123.superqa@gmail.com",
+		"passwordConsumer" : "rumahnya123"
+	},
+	"invalidData":
+	{
+		"emailConsumer" : "invalid@mail.com",
+		"passwordConsumer" : "rumah321"
+	}
+}

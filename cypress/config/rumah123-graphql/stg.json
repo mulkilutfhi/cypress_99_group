@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://agent-tools.develop.99iddev.net",
+    "integrationFolder": "cypress/integration/rumah123-graphql/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "RUMAH123",
+        "ENV": "stg",
+        "xClientType": "Y29yZS1jbGllbnQtZm9yLXdlYgo=",
+        "contentType": "application/json"
+    }
+}

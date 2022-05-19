@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://release.legacy-web.rumah123.com",
+    "integrationFolder": "cypress/integration/Rumah123Legacy",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "rumah123Legacy",
+        "ENV": "stg"
+    }
+}

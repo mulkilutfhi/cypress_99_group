@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://www.rumah123.com/",
+    "integrationFolder": "cypress/integration/rumah123/",
+    "chromeWebSecurity": false,
+    "env": {
+        "MARKET": "rumah123",
+        "ENV": "prod"
+    }
+}
